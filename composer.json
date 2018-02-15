@@ -1,5 +1,5 @@
 {
-    "name": "fatmaabedelshahed/testpackeg",
+    "name": "fatmaabedelshahed/test",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,12 +14,12 @@
 	},
 	"autoload": {
         "psr-4": {
-            "FatmaAbedElshahed\\test\\": "src"
+            "FatmaAbedElshahed\\Test\\": "src"
         },
 "extra": {
         "laravel": {
             "providers": [
-                "FatmaAbedElshahed\\test\\testServiceProvider"
+                "FatmaAbedElshahed\\Test\\testServiceProvider"
             ]
         }
     }
