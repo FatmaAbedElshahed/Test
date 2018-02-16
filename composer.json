@@ -14,12 +14,12 @@
 	}],
 	"autoload": [{
         "psr-4": {
-            "FatmaAbedElshahed\\Test\\": "src"
+            "FatmaAbedElshahed\\test\\": "src"
         }],
 "extra": [{
         "laravel": {
             "providers": [
-                "FatmaAbedElshahed\\Test\\testServiceProvider"
+                "FatmaAbedElshahed\\test\\testServiceProvider"
             ]
         }
     }]
