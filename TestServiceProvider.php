@@ -4,7 +4,7 @@ namespace FatmaAbedElshahed\test;
 
 use Illuminate\Support\ServiceProvider;
 
-class testServiceProvider extends ServiceProvider
+class TestServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
