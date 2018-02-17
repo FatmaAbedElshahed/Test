@@ -8,19 +8,25 @@
             "email": "fatmaabedelshahed@gmail.com"
         }
     ],
-    "require":[ {
+    "require": 
+	{
 	"php":">=5.0",
 	 "illuminate/database": "~5.5.0|~5.6.0"
-	}],
-	"autoload": [{
+	}
+	,
+	"autoload": 
+		{
         "psr-4": {
             "FatmaAbedElshahed\\Test\\": "src"
-        }],
-"extra": [{
+        }
+},
+"extra": 
+{
         "laravel": {
             "providers": [
                 "FatmaAbedElshahed\\Test\\TestServiceProvider"
             ]
         }
-    }]
+    }
+
 }
